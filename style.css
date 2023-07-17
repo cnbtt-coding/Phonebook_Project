@@ -1,0 +1,128 @@
+/* Fonts */
+
+/* Reseting default settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+/* Container settings */
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Body style */
+
+body {
+    background-color: #ffe4e1;
+}
+
+/* Header settings */
+
+header .container {
+    text-align: center;
+    background-color: #2c4156;
+    padding: 8px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header .container h1 {
+    color: whitesmoke;
+}
+
+/* Phonebook inputs settings */
+
+main .contacts-add {
+    margin-top: 50px;
+}
+
+.contacts-add .container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.contacts-add .container h2 {
+    color: #e1ad01;
+    margin: 24px 0;
+    font-weight: bold;
+}
+
+.contacts-add .container .inputs input {
+    display: block;
+    margin: 18px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.contacts-add .container button {
+    margin-top: 18px;
+    height: 36px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: rgb(105, 219, 105);
+    box-shadow: 0px 0px 3px black;
+    cursor: pointer;
+    transition: all .55s ease;
+    color: white;
+}
+
+.contacts-add .container button:hover {
+    background-color: rgb(167, 241, 167);
+}
+
+.contacts-add .container img {
+    transition: all .55s ease;
+}
+
+.contacts-add .container img:hover {
+    transform: rotate3d(0, 0, -1, 10deg);
+    transition: all .55 ease;
+}
+
+/* Table style */
+
+.contacts .container {
+    max-width: 500px;
+    background-color: #b8e4ff;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contacts .container table {
+    width: 100%;
+    padding: 8px;
+}
+
+.contacts .container table th {
+    color: #000;
+    padding: 16px;
+    font-size: 18px;
+}
+
+
+
+.contacts .container table td {
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 30%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
