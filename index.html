@@ -16,12 +16,14 @@
     <main>
         <div class="contacts-add">
             <div class="container">
-                <div class="inputs">
+                <form id="add-contact-form">
                     <h2>Add contact</h2>
-                    <input type="text" placeholder="Name">
-                    <input type="tel" placeholder="Phone number">
-                    <button submit>Confirm</button>
-                </div>
+                    <input id="nome-contato" type="text" required placeholder="Name">
+                    <input id="numero-telefone" type="tel" required placeholder="Phone number">
+                    <button submit>
+                        Add
+                    </button>
+                </form>
                 <img src="./media/phonebookMain.png" alt="phonebook">
             </div>
         </div>
@@ -35,15 +37,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Caio</td>
-                            <td>11911644657</td>
-                            <td><img src="./media/wppLogo.png" alt=""></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>

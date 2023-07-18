@@ -54,6 +54,7 @@ main .contacts-add {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0px 0px 10px black;
+    position: relative;
 }
 
 .contacts-add .container h2 {
@@ -62,7 +63,7 @@ main .contacts-add {
     font-weight: bold;
 }
 
-.contacts-add .container .inputs input {
+.contacts-add .container input {
     display: block;
     margin: 18px 0px;
     border: none;
@@ -89,11 +90,7 @@ main .contacts-add {
 
 .contacts-add .container img {
     transition: all .55s ease;
-}
-
-.contacts-add .container img:hover {
-    transform: rotate3d(0, 0, -1, 10deg);
-    transition: all .55 ease;
+    rotate: -10deg;
 }
 
 /* Table style */
@@ -104,6 +101,7 @@ main .contacts-add {
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin-bottom: 12px;
 }
 
 .contacts .container table {
@@ -124,5 +122,6 @@ main .contacts-add {
     text-align: center;
     background-color: rgba(255, 255, 255, 30%);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
 }
 
