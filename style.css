@@ -69,6 +69,7 @@ main .contacts-add {
     border: none;
     border-bottom: 1px solid black;
     outline: none;
+    background-color: transparent;
 }
 
 .contacts-add .container button {
